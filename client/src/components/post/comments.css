@@ -1,0 +1,179 @@
+.coment_input{
+    width: 90%;
+    max-width: 720px;
+    border-radius: 10px;
+    border-style: ridge;
+    border: 1px solid grey;
+    margin-left: 45px;
+    background-color: #FFFFFF;
+    height: 35px;
+    top: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background: transparent;
+    padding-left: 12px;
+}
+
+.comment_icon{
+    position: relative;
+}
+.posi1, .posi2, .posi3{
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    right: 0;
+}
+
+.posi1{
+    left: 92%;
+    top: 9px;
+    color: #062F4F;
+    cursor: pointer;
+}
+.posi2{
+    left: 88%;
+    top: 9px;
+    size: 10%;
+    color: #062F4F;
+    cursor: pointer;
+}
+
+.posi3{
+    top: 10px;
+    color: #062F4F;
+    cursor: pointer;
+}
+
+.posicon{
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    right: 0;
+}
+
+
+.postProfileImg_2{
+   margin-top: -10px;
+    width: 32px;
+    height: 32px;
+    top: 47px;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.commentShare {
+    box-shadow: 0px 0px 14px -8px rgba(0,0,0,0.68);
+    width: 90%;
+    border-radius: 10px;
+    height: 74px;
+    margin: 30px 0;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.comment_share{
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.commentTop{
+    align-items: center;
+    justify-content: space-between;
+}
+.commentTopLeft{
+    display: flex;
+    align-items: center;
+}
+.commentProfileImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    left: -100px;
+
+}
+.commentUsername{
+    font-size: 14px;
+    font-weight: 450;
+    margin: 0 10px;
+}
+
+.commentCenter{
+    margin: -10px 0px;
+
+}
+
+.commentText{
+    margin: 40px;
+    font-size: 15px;
+}
+
+.commentDate{
+    margin-left: 465px;
+    font-size: 12px;
+    margin-top: -25px;
+}
+
+.reply{
+    left: 71%;
+    top: 12px;
+    position: relative;
+    color: #062F4F;
+    cursor: pointer;
+}
+
+.replyShare{
+    -webkit-box-shadow: 0px 0px 14px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 14px -8px rgba(0,0,0,0.68);
+    width: 60%;
+    border-radius: 10px;
+    margin: 15px 0;
+    margin-left: 300px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    
+}
+
+.reply_share{
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.replyTop{
+    align-items: center;
+    justify-content: space-between;
+}
+.replyTopLeft{
+    display: flex;
+    align-items: center;
+}
+.replyProfileImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    left: -100px;
+
+}
+.replyUsername{
+    font-size: 14px;
+    font-weight: 450;
+    margin: 0 10px;
+}
+
+.replyCenter{
+    margin: 1px 0px;
+}
+
+.replyText{
+    margin: 40px;
+    font-size: 15px;
+}
+
+.replyDate{
+    margin-left: 235px;
+    font-size: 10px;
+    margin-top: -25px;
+}
